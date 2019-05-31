@@ -5,13 +5,7 @@
   <title>Basketball Team</title>
  </head>
  <body>
-   <%= "Team Name: #{@team[:name]}" %>
-   <%= "Coach: #{@team[:coach]}" %>
-   <%= "Point Guard: #{@team[:point_guard]}" %>
-   <%= "Shooting Guard: #{@team[:shooting_guard]}" %>
-   <%= "Small Forward: #{@team[:small_forward]}" %>
-   <%= "Power Forward: #{@team[:power_forward]}" %>
-   <%= "Center: #{@team[:center]}" %>
+   
 
    <% @team.each do |t| %>
     <h3> <%= t %></h3>
